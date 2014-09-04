@@ -12,6 +12,6 @@ class Transaction
   end
 
   def summary
-    puts "#{amount} \t #{self.deposit? ? 'WITHDRAWAL' : 'DEPOSIT'} \t #{date} - #{description}"
+    puts "$#{amount} \t #{self.deposit? ? 'WITHDRAWAL' : 'DEPOSIT'} \t #{date} - #{description}"
   end
 end

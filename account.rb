@@ -12,6 +12,7 @@ class Account
     transactions.each do |transaction|
       transaction.summary
     end
+    nil
   end
 
   def get_current_balance
